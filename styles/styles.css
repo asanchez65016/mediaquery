@@ -1,0 +1,33 @@
+li {
+	display: inline;
+	position: relative;
+	border: 1px solid black;
+	padding: 10px 20px;
+	top: 20px;
+	left: 325px;
+	cursor: pointer;
+}
+li:hover{
+background-color: #EBEBEB;
+}
+a{ 
+	text-decoration: none;
+	color: black;
+}
+@media screen and (max-width: 1024px){
+#lavanguardia{
+	visibility:hidden;
+}
+}
+
+@media screen and (max-width: 768px){
+#larazon{
+	visibility:hidden;
+}
+}
+
+@media screen and (max-width: 480px){
+#elperiodico{
+	visibility:hidden;
+}
+}
